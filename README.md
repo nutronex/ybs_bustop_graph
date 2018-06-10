@@ -4,4 +4,8 @@ can be used for implementing graph theorys
 
  graph = json.load(open("ybs_graph.json"))
  
- print(bfs_path(' ဂိတ်ဟောင်း',  ' သစ်ဆိုင်ကွေ့',graph))
+ 
+>>> print(bfs_path(' သိမ်ဖြူစာတိုက်', ' လှည်းတန်းဈေး',graph))
+ 
+>>> [' သိမ်ဖြူစာတိုက်', ' ကျောင်းလမ်း', ' ကျောင်းရှေ့/ဓမ္မာရုံ', ' လှည်းတန်းဈေး']
+
