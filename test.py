@@ -37,7 +37,7 @@ for i ,v in m.items():m[i]=list(v)
 if __name__=="__main__":
 
     #print(json.dumps(m,ensure_ascii=False))
-    graph = json.load(open("ybs_graph/ybs_graph.json"))
+    graph = json.load(open("ybs_graph.json"))
     print(bfs_path(' ဂိတ်ဟောင်း',  ' သစ်ဆိုင်ကွေ့',graph))
     print(bfs_path(' ဂိတ်ဟောင်း', ' ဆည်မြောင်း',graph))
     print(bfs_path(' သိမ်ဖြူစာတိုက်', ' လှည်းတန်းဈေး',graph))
